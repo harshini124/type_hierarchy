@@ -1,0 +1,316 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2d476f;
+    position: relative;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Color variables */
+:root {
+    --primary-color: #2d476f;
+    --accent-color: #FF5733;
+    --accent-hover-color: #C70039;
+    --page3-accent-color: #6C5CE7;
+    --page3-accent-hover-color: #5649c0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #2d476f !important;
+}
+
+.navbar-nav a {
+    color: #f5f5f5;
+}
+
+.navbar-brand {
+    color: #f5f5f5;
+    font-weight: 700;
+}
+
+.nav-link {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+}
+
+/* Hierarchy section styles */
+.hier-intro {
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+
+hr {
+    margin: 20px 0 32px 0 !important;
+    color: #2d476f;
+}
+
+.hier-container {
+    padding-bottom: 8rem;
+}
+
+/* Default heading styles */
+h1 {
+    font-size: 4rem;
+    padding-bottom: 0.2rem;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding-bottom: 0.8rem;
+}
+
+/* Homepage header style */
+.homepage-header {
+    font-size: 3.052rem;
+    margin-bottom: 1rem;
+}
+
+/* Code styling */
+code {
+    color: #da4a4a;
+    font-size: .875rem;
+}
+
+/* Page 1 - Use Poppins for headings and Noto Serif for body */
+.page1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.61rem; /* 89.84px */
+    font-weight: 700;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.21rem; /* 67.2px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page1 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem; /* 48px */
+    font-weight: 500;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page1 h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem; /* 32px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page1 p,
+.page1 em,
+.page1 a {
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page1 em {
+    font-style: italic;
+}
+
+.page1 a {
+    text-decoration: underline;
+    text-decoration-thickness: 0.12rem;
+    text-decoration-color: #FF5733;
+    color: #FF5733;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.page1 a:hover {
+    text-decoration: none;
+    color: #C70039;
+}
+
+/* Page 2 - Use Work Sans for both headings and body */
+.page2 h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5.61rem; /* 89.76px */
+    font-weight: 700;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page2 h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4.21rem; /* 67.36px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page2 h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem; /* 48px */
+    font-weight: 500;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page2 h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem; /* 32px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page2 p,
+.page2 em,
+.page2 a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page2 em {
+    font-style: italic;
+}
+
+.page2 a {
+    color: #007BFF;
+    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.page2 a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+/* Page 3 - Use Prata for headings and Roboto for body */
+.page3 h1 {
+    font-family: 'Prata', serif;
+    font-size: 5rem; /* 80px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page3 h2 {
+    font-family: 'Prata', serif;
+    font-size: 3.75rem; /* 60px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page3 h3 {
+    font-family: 'Prata', serif;
+    font-size: 2.5rem; /* 40px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page3 h4 {
+    font-family: 'Prata', serif;
+    font-size: 2rem; /* 32px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page3 p,
+.page3 em,
+.page3 a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
+    font-style: normal;
+    color: #2d476f;
+}
+
+.page3 em {
+    font-style: italic;
+}
+
+.page3 a {
+    color: #6C5CE7;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: #6C5CE7;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.page3 a:hover {
+    text-decoration: none;
+    color: #5649c0;
+}
+
+.page3 .hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #6C5CE7;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    width: 100%;
+    padding: 1.5rem 0 3rem 0;
+    height: 5rem;
+    bottom: 0;
+    text-align: center;
+    color: #2d476f;
+}
+
+.footer-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #2d476f;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.specs {
+    padding-top: 20px;
+}
+
+/* Responsive typography tweaks */
+@media (max-width: 768px) {
+    .page1 h1,
+    .page2 h1,
+    .page3 h1 {
+        font-size: 3rem;
+    }
+
+    .page1 h2,
+    .page2 h2,
+    .page3 h2 {
+        font-size: 2.5rem;
+    }
+
+    .page1 h3,
+    .page2 h3,
+    .page3 h3 {
+        font-size: 2rem;
+    }
+
+    .page1 h4,
+    .page2 h4,
+    .page3 h4 {
+        font-size: 1.5rem;
+    }
+}
